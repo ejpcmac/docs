@@ -1,0 +1,11 @@
+{
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        80
+    ],
+    "evenBetterToml.formatter.reorderArrays": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "rewrap.autoWrap.enabled": true,
+}
