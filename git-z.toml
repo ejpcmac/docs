@@ -28,10 +28,13 @@ list = [
     # Procedures
 
     # General scopes
+    "readme",
+
+    # Tools
     "editorconfig",
     "git",
     "git-z",
-    "readme",
+    "vscode",
 ]
 
 # The ticket / issue reference configuration.
