@@ -1,0 +1,119 @@
+#+TITLE: List of ADRs to create
+
+| ADR# | T | Resource     | Decision date     | First application | First project   | Scope           | Element               | Decision                         |
+|------+---+--------------+-------------------+-------------------+-----------------+-----------------+-----------------------+----------------------------------|
+|      |   |              |                   |                   |                 | Documentation   | Markup language       | Plain text                       |
+|      |   |              |                   | 2011-ish          |                 | Blogging        | Platform              | Wordpress                        |
+|      |   |              |                   | 2011-ish          |                 | Documentation   | Diagrams              | Dia                              |
+|      |   |              |                   |                   | leksik (?)      | Dev/CLI         | Language              | Ruby                             |
+|      |   |              |                   |                   |                 | Configuration   | Language              | YAML                             |
+|      |   |              |                   |                   |                 | Dev/CLI         | Language              | Bourne Shell                     |
+|      |   |              |                   | [2016-08-17 mer.] | studio_perche   | Dev/Web         | Language              | PHP                              |
+|      |   |              |                   | [2015-09-02 mer.] | TR.md (?)       | Documentation   | Markup language       | Markdown                         |
+|      |   |              |                   | [2016-03-05 sam.] | psync (?)       | Tools           | Version control       | Git                              |
+|      |   |              |                   | [2016-09-05 lun.] | psync (?)       | Conventions     | Commits               | Capital + imperative             |
+|      |   | [[https://github.com/participamap/participamap/issues/1][Issue]]        | [2016-09-09 ven.] | [2016-09-11 dim.] | participamap    | Dev/Web         | Back-end framework    | Express (JavaScript)             |
+|      |   |              |                   |                   |                 | Documentation   | Diagrams              | draw.io                          |
+|      |   |              |                   |                   |                 | Conventions     | Versioning            | Semantic Versioning              |
+|      |   |              |                   |                   |                 | Conventions     | Git branching         | Git Flow with extensions         |
+|      |   | [[https://twitter.com/ejpcmac/status/837293360679370753][Tweet]]        | [2017-03-02 jeu.] | [2017-03-29 mer.] | studio_perche   | Dev/Web         | Back-end framework    | Phoenix (Elixir)                 |
+|      |   |              | [2017-03-02 jeu.] | [2017-03-29 mer.] | studio_perche   | Dev/Web         | Front-end framework   | None (Server-Side Rendering)     |
+|      |   |              |                   | [2017-07-09 dim.] | studio_perche   | Tools           | Toolchain management  | asdf                             |
+|      |   |              |                   | [2017-09-21 jeu.] | blog            | Blogging        | Platform              | Medium                           |
+|      |   |              |                   | [2018-02-18 dim.] | xgen            | Dev/CLI         | Language              | Elixir                           |
+|      |   |              |                   | [2018-02-18 dim.] | xgen            | Dev/CLI         | Argument parsing      | ExCLI                            |
+|      |   |              |                   | [2018-03-05 lun.] | diceware        | Dev/CLI         | Language              | Rust                             |
+|      |   |              |                   | [2018-03-05 lun.] | diceware        | Dev/CLI         | Argument parsing      | clap                             |
+|      |   | [[https://elixirforum.com/t/nix-vs-asdf-for-elixir-version-management/15973][Elixir Forum]] | [2018-08-21 mar.] | [2018-08-27 lun.] | studio_perche   | Tools           | Toolchain management  | Nix + direnv                     |
+|      |   | [[https://gitlab.ejpcmac.net/jpc/studio_perche/-/issues/20][Issue]]        | [2018-09-13 jeu.] | [2018-10-15 lun.] | studio_perche   | Configuration   | Language              | TOML                             |
+|      |   | [[https://github.com/ejpcmac/xgen/commit/f6322f9371aac8f4c0f091ff19b3f79b7c5e600e][Commit]]       | [2018-10-07 dim.] | [2018-10-07 dim.] | xgen            | Dev/CLI         | Prompt                | Marcus                           |
+|      |   |              |                   |                   |                 | Lang/Nix        | Rust toolchain        | rustup                           |
+|      |   | [[https://trello.com/c/aITE8qJc#action-5c77a2d7d73c1c5d31f6b125][Trello]]       | [2019-02-28 jeu.] | [2019-03-09 sam.] | first-project   | Dev/Embedded    | Language              | Rust                             |
+|      |   | [[https://trello.com/c/aITE8qJc#action-5c8c1a0e6ae25a5e7c75677f][Trello]]       | [2019-03-15 ven.] | [2019-03-31 dim.] | first-project   | Dev/Embedded    | Concurrency Framework | RTFM                             |
+|      |   | [[https://trello.com/c/UquCaPVN#action-5cdc2e56a7875928d7376b46][Trello]]       | [2019-05-15 mer.] | [2019-07-23 mar.] | blog            | Blogging        | Platform              | Static site                      |
+|      |   | [[https://trello.com/c/XuaKZolK#action-5cdc2e4a6332ac0c52adb4a4][Trello]]       | [2019-05-15 mer.] | [2019-07-23 mar.] | blog            | Blogging        | Site generator        | Zola                             |
+|      |   | [[https://github.com/ejpcmac/typed_struct/commit/726b69769b870c2e17e1b26450f11e2d36e5b569][Commit]]       | [2020-05-28 jeu.] | [2020-05-28 jeu.] | typed_struct    | Conventions     | Changelog             | Keep a Changelog                 |
+|      |   |              |                   | [2020-08-01 sam.] | track           | Dev/CLI         | Argument parsing      | structopt                        |
+|      |   |              |                   | [2020-08-10 lun.] | blinky-stm32l4  | Dev/Embedded    | Log / tracing         | rtt-target                       |
+|      |   | [[https://github.com/ercp/toolbox/commit/37e8be164310fea8d871ba1d54646bbe77afe779][Commit]]       | [2021-05-28 ven.] | [2021-05-28 ven.] | ercp_gui        | Dev/GUI         | Language              | Rust                             |
+|      |   | [[https://github.com/ercp/toolbox/commit/37e8be164310fea8d871ba1d54646bbe77afe779][Commit]]       | [2021-05-28 ven.] | [2021-05-28 ven.] | ercp_gui        | Dev/GUI         | Framework             | relm                             |
+|      |   |              |                   | [2021-09-08 mer.] | s*******r@W$    | Conventions     | Commits               | Conventional Commits             |
+|      |   |              | [2022-02-10 jeu.] | [2022-02-10 jeu.] | W$              | Documentation   | Diagrams              | Mermaid                          |
+|      |   |              |                   | [2022-06-01 mer.] | totem           | Dev/Embedded    | Log / tracing         | defmt with RTT backend           |
+|      |   | [[https://github.com/frangins/totem/commit/3722e0cce1168f839c52b1e3d15a5c1ba3eb18c1][Commit]]       | [2022-06-29 mer.] | [2022-06-29 mer.] | totem_gui       | Dev/GUI         | Framework             | relm4                            |
+|      |   | [[https://github.com/frangins/totem/commit/4365f2d223c19383ab901bc80107c010562e2281][Commit]]       | [2022-06-30 jeu.] | [2022-06-30 jeu.] | totem           | Dev/Embedded    | Serialisation format  | postcard                         |
+|      | T |              |                   |                   | n*****h@W$      | Dev/CLI         | Prompt                | ???????????????????????????????? |
+|      |   |              |                   | [2022-09-05 lun.] | n*****h@W$      | Dev/CLI         | Prompt                | inquire                          |
+|      | T | [[https://github.com/clap-rs/clap/blob/master/CHANGELOG.md#300---2021-12-31][CHANGELOG.md]] | [2019-12-31 mar.] | [2022-09-06 mar.] | track           | Dev/CLI         | Argument parsing      | clap                             |
+|      |   | [[https://github.com/ejpcmac/typed_struct/commit/5ac4ffd7500273dfca2fd3135ee3653a91463c61][Commit]]       | [2022-09-11 dim.] | [2022-09-11 dim.] | typed_struct    | Tools           | Commit linter         | commitlint                       |
+|      |   | [[https://gitlab.ejpcmac.net/jpc/config/-/commit/48a22ce7d8584bc6e89e38fc8e26bf0ab56208fb][Commit]]       | [2023-02-16 jeu.] | [2023-02-16 jeu.] | config          | Lang/Nix        | Formatter             | nixpkgs-fmt                      |
+|      |   |              | [2023-04-12 mer.] | [2023-04-13 jeu.] | s*******r@W$    | Tools           | Toolchain management  | Nix (Flakes) + direnv            |
+|      |   |              | [2023-04-13 jeu.] | [2023-04-13 jeu.] | s*******r@W$    | Lang/Nix        | Flake management      | flake-utils                      |
+|      |   |              | [2023-04-13 jeu.] | [2023-04-13 jeu.] | c**********u@W$ | Lang/Nix        | Rust packaging        | naersk                           |
+|      |   |              | [2023-04-21 ven.] | [2023-04-27 jeu.] | n*****h@W$      | Lang/Nix        | Rust toolchain        | rust-overlay                     |
+|      |   |              | [2023-06-03 sam.] | [2023-06-03 sam.] | khimaira        | Lang/Nix        | Flake management      | flake-parts                      |
+|      |   |              | [2023-06-03 sam.] | [2023-06-03 sam.] | khimaira        | Lang/Nix        | Devshell              | devshell                         |
+|      |   |              | [2023-06-21 mer.] | [2023-06-21 mer.] | s*******r@W$    | Configuration   | Language              | TOML / YAML                      |
+|      |   | [[https://gitlab.ejpcmac.net/frangins/p-repair/prepair/-/commit/5e255136bfd4faac9f171f7ef6bbee1a46e9e28c][Commit]]       | [2023-07-12 mer.] | [2023-07-12 mer.] | (p)repair       | Dev/Web         | Front-end framework   | Phoenix LiveView (Elixir)        |
+|      |   |              | [2023-11-28 mar.] | [2023-12-01 ven.] | git-z           | Tools           | Commit helper         | git-z                            |
+|      |   | [[https://gitlab.ejpcmac.net/frangins/p-repair/prepair/-/issues/80][Issue]]        | [2024-05-13 lun.] | [2024-05-13 lun.] | (p)repair       | Dev/Web         | Back-end framework    | Ash + Phoenix (Elixir)           |
+|      |   | [[https://github.com/ejpcmac/git-z/commit/9979524cabf42e2dae4d1fdef4cd6321415de64a][Commit]]       | [2024-07-10 mer.] | [2024-07-10 mer.] | git-z           | Dev/CLI         | CLI tests             | rexpect + assert_cmd + assert_fs |
+|      |   | [[https://github.com/ejpcmac/git-z/commit/d667eb87b3e23f7a00e58e7ae9fd3e5d00dff864][Commit]]       | [2024-07-23 mar.] | [2024-07-23 mar.] | git-z           | Tools           | Commit linter         | committed                        |
+|      |   | [[https://github.com/ejpcmac/git-z/issues/20][Issue]]        | [2024-07-05 ven.] | [2024-09-07 sam.] | git-z           | Lang/Rust (std) | Log / tracing         | tracing                          |
+|      |   |              |                   |                   |                 | Conventions     | ADR Template          | MADR                             |
+|      |   |              |                   |                   |                 | Documentation   | Platform              | Text files tracked by Git        |
+|      |   |              |                   |                   |                 | Documentation   | Markup language       | GitHub Flavored Markdown         |
+|------+---+--------------+-------------------+-------------------+-----------------+-----------------+-----------------------+----------------------------------|
+|      | T |              |                   |                   |                 | Lang/Rust (std) | Error management      | anyhow (app)                     |
+|      | T |              |                   | [2022-09-10 sam.] | track           | Lang/Rust (std) | Error management      | thiserror (lib)                  |
+|      | T |              |                   | [2022-09-06 mar.] | track           | Lang/Rust (std) | Error management      | eyre (app)                       |
+
+To integrate:
+
+| Scope           | Element                  | Decision                                                                                 | ADR |
+| --------------- | ------------------------ | ---------------------------------------------------------------------------------------- | --- |
+| Lang/Rust (std) | ORM                      | [Diesel]                                                                                 |     |
+| Lang/Rust (std) | Templating               | [askama] (static)<br>[tera] (dynamic)                                                    |     |
+| Lang/Rust (std) | Ordered maps             | [indexmap]                                                                               |     |
+| Lang/Rust (std) | Test runner              | [cargo-nextest]                                                                          |     |
+| Lang/TOML       | Formatter                | [taplo]                                                                                  |     |
+| Lang/YAML       | Formatter                | [prettier]                                                                               |     |
+| Lang/JSON       | Formatter                | [prettier]                                                                               |     |
+| Office          | Task management          | [Org Mode]                                                                               |     |
+| Office          | Note taking              | [Org Mode]                                                                               |     |
+| Office          | Mailer                   | [mu4e]                                                                                   |     |
+| Office          | Messaging client         | [Element] ([Matrix])                                                                     |     |
+| Office          | Word processing          | [Pandoc Markdown] + [Pandoc] with [LaTeX] backend (general)<br>[LaTeX] (letters, resume) |     |
+| Office          | Presentation             | [Pandoc Markdown] + [Pandoc] with [Beamer] ([LaTeX]) backend                             |     |
+| Office          | Spreadsheet              | [LibreOffice Calc]                                                                       |     |
+| Infra/Desktop   | Operating system         | [NixOS]                                                                                  |     |
+| Infra/Desktop   | File system              | [ZFS]                                                                                    |     |
+| Infra/Desktop   | Configuration management | [NixOS] (with Flakes)                                                                    |     |
+| Infra/Desktop   | Dotfile management       | [home-manager] ([Nix])                                                                   |     |
+| Infra/Desktop   | Package manager          | [Nix]                                                                                    |     |
+| Infra/Desktop   | Shell                    | [Zsh] + [Oh My Zsh]                                                                      |     |
+| Infra/Desktop   | Desktop environment      | [bspwm] + [sxhkd] + [Polybar]                                                            |     |
+| Infra/Desktop   | Launcher                 | [Rofi]                                                                                   |     |
+| Infra/Desktop   | Terminal emulator        | [Termite]                                                                                |     |
+| Infra/Desktop   | Terminal multiplexer     | [Tmux]                                                                                   |     |
+| Infra/Desktop   | File manager             | [ranger] (main)<br>[PCManFM] (for thumbnails)                                            |     |
+| Infra/Desktop   | Text editor              | [Spacemacs]                                                                              |     |
+| Infra/Desktop   | Web browser              | [Firefox]                                                                                |     |
+| Infra/Desktop   | Code editor              | [VSCodium]                                                                               |     |
+| Infra/Desktop   | Backup                   | [ZFS snapshots] (local)<br>[syncoid] ([ZFS] replication)<br>[rsync] (other replication)  |     |
+| Infra/Server    | Operating system         | [NixOS]                                                                                  |     |
+| Infra/Server    | Configuration management | [NixOS] (with Flakes)                                                                    |     |
+| Infra/Server    | File system              | [ZFS]                                                                                    |     |
+| Infra/Server    | Shell                    | [Zsh] + [Oh My Zsh]                                                                      |     |
+| Infra/Server    | Terminal multiplexer     | [Tmux]                                                                                   |     |
+| Infra/Server    | File manager             | [ranger]                                                                                 |     |
+| Infra/Server    | Text editor              | [Vim]                                                                                    |     |
+| Infra/Server    | Backup                   | [ZFS snapshots] (local)<br>[syncoid] ([ZFS] replication)                                 |     |
+| Infra/Server    | Container platform       | [NixOS Containers]                                                                       |     |
+| Infra/Server    | Log database             | [Elasticsearch] (to be revised)                                                          |     |
+| Infra/Server    | Database                 | [PostgreSQL]                                                                             |     |
+| Infra/Server    | Mail server              | [NixOS Mailserver] (Postfix + Dovecot + OpenDKIM + rspamd)                               |     |
+| Infra/Server    | Web server               | [Apache HTTP Server]                                                                     |     |
+| Infra/Server    | Messaging server         | [Synapse] ([Matrix])                                                                     |     |
+| Infra/Server    | Git forge                | [GitLab] (self-hosted)<br>[GitHub] (public projects)                                     |     |
+| Infra/Server    | Home cloud               | [Nextcloud]                                                                              |     |

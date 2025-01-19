@@ -8,7 +8,7 @@
 | Conventions     | Commits                  | [Conventional Commits]                                                                   |     |
 | Conventions     | Git branching            | [Git Flow with extensions]                                                               |     |
 | Tools           | Version control          | [Git]                                                                                    |     |
-| Tools           | Toolchain management     | [Nix] + [direnv]                                                                         |     |
+| Tools           | Toolchain management     | [Nix] (Flakes) + [direnv]                                                                |     |
 | Tools           | Commit helper            | [git-z]                                                                                  |     |
 | Tools           | Commit linter            | [committed]                                                                              |     |
 | Documentation   | Platform                 | Text files tracked by [Git]                                                              |     |
@@ -23,7 +23,7 @@
 | Dev/CLI         | CLI tests                | [rexpect]<br>[assert_cmd]<br>[assert_fs]                                                 |     |
 | Dev/Embedded    | Language                 | [Rust]                                                                                   |     |
 | Dev/Embedded    | Concurrency framework    | [RTIC]                                                                                   |     |
-| Dev/Embedded    | Log / tracing            | [defmt]                                                                                  |     |
+| Dev/Embedded    | Log / tracing            | [defmt] with [RTT backend]                                                               |     |
 | Dev/Embedded    | Serialisation format     | [postcard]                                                                               |     |
 | Dev/GUI         | Language                 | [Rust]                                                                                   |     |
 | Dev/GUI         | Framework                | [relm4] (to be revised)                                                                  |     |
@@ -49,11 +49,12 @@
 | Office          | Messaging client         | [Element] ([Matrix])                                                                     |     |
 | Office          | Word processing          | [Pandoc Markdown] + [Pandoc] with [LaTeX] backend (general)<br>[LaTeX] (letters, resume) |     |
 | Office          | Presentation             | [Pandoc Markdown] + [Pandoc] with [Beamer] ([LaTeX]) backend                             |     |
-| Office          | Spreadsheet              | [LibreOffice Calc]                                                                       |     |
+| Office          | Spreadsheet              | [Org Mode] (basic tables)<br>[LibreOffice Calc] (advanced cases + sharing)               |     |
 | Infra/Desktop   | Operating system         | [NixOS]                                                                                  |     |
 | Infra/Desktop   | File system              | [ZFS]                                                                                    |     |
-| Infra/Desktop   | Configuration management | [NixOS]                                                                                  |     |
+| Infra/Desktop   | Configuration management | [NixOS] (with Flakes)                                                                    |     |
 | Infra/Desktop   | Dotfile management       | [home-manager] ([Nix])                                                                   |     |
+| Infra/Desktop   | Package manager          | [Nix]                                                                                    |     |
 | Infra/Desktop   | Shell                    | [Zsh] + [Oh My Zsh]                                                                      |     |
 | Infra/Desktop   | Desktop environment      | [bspwm] + [sxhkd] + [Polybar]                                                            |     |
 | Infra/Desktop   | Launcher                 | [Rofi]                                                                                   |     |
@@ -65,7 +66,7 @@
 | Infra/Desktop   | Code editor              | [VSCodium]                                                                               |     |
 | Infra/Desktop   | Backup                   | [ZFS snapshots] (local)<br>[syncoid] ([ZFS] replication)<br>[rsync] (other replication)  |     |
 | Infra/Server    | Operating system         | [NixOS]                                                                                  |     |
-| Infra/Server    | Configuration management | [NixOS]                                                                                  |     |
+| Infra/Server    | Configuration management | [NixOS] (with Flakes)                                                                    |     |
 | Infra/Server    | File system              | [ZFS]                                                                                    |     |
 | Infra/Server    | Shell                    | [Zsh] + [Oh My Zsh]                                                                      |     |
 | Infra/Server    | Terminal multiplexer     | [Tmux]                                                                                   |     |
@@ -78,7 +79,7 @@
 | Infra/Server    | Mail server              | [NixOS Mailserver] (Postfix + Dovecot + OpenDKIM + rspamd)                               |     |
 | Infra/Server    | Web server               | [Apache HTTP Server]                                                                     |     |
 | Infra/Server    | Messaging server         | [Synapse] ([Matrix])                                                                     |     |
-| Infra/Server    | Git forge                | [GitLab] (self-hosted)<br>[GitHub] (public projects)                                     |     |
+| Infra/Server    | Git forge                | [GitLab] (private projects, self-hosted)<br>[GitHub] (public projects)                   |     |
 | Infra/Server    | Home cloud               | [Nextcloud]                                                                              |     |
 
 [Apache HTTP Server]: https://httpd.apache.org/
@@ -116,6 +117,7 @@
 [Polybar]: https://github.com/polybar/polybar
 [PostgreSQL]: https://www.postgresql.org/
 [RTIC]: https://rtic.rs/2/book/en/
+[RTT backend]: https://github.com/knurling-rs/defmt/tree/main/firmware/defmt-rtt
 [Rofi]: https://github.com/davatorium/rofi
 [Rust]: https://www.rust-lang.org/
 [Semantic Versioning]: https://semver.org/
