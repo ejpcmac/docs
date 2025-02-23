@@ -78,7 +78,7 @@
 | Infra/Server    | Mail server              | [NixOS Mailserver] (Postfix + Dovecot + OpenDKIM + rspamd)                               |     |
 | Infra/Server    | Web server               | [Apache HTTP Server]                                                                     |     |
 | Infra/Server    | Messaging server         | [Synapse] ([Matrix])                                                                     |     |
-| Infra/Server    | Git forge                | [GitLab] (self-hosted)<br>[GitHub] (public projects)                                     |     |
+| Infra/Server    | Git forge                | [GitLab] (private projects, self-hosted)<br>[GitHub] (public projects)                   |     |
 | Infra/Server    | Home cloud               | [Nextcloud]                                                                              |     |
 
 [Apache HTTP Server]: https://httpd.apache.org/
