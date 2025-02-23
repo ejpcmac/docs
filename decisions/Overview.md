@@ -8,7 +8,7 @@
 | Conventions     | Commits                  | [Conventional Commits]                                                                   |     |
 | Conventions     | Git branching            | [Git Flow with extensions]                                                               |     |
 | Tools           | Version control          | [Git]                                                                                    |     |
-| Tools           | Toolchain management     | [Nix] + [direnv]                                                                         |     |
+| Tools           | Toolchain management     | [Nix] (Flakes) + [direnv]                                                                |     |
 | Tools           | Commit helper            | [git-z]                                                                                  |     |
 | Tools           | Commit linter            | [committed]                                                                              |     |
 | Documentation   | Platform                 | Text files tracked by [Git]                                                              |     |
@@ -52,7 +52,7 @@
 | Office          | Spreadsheet              | [LibreOffice Calc]                                                                       |     |
 | Infra/Desktop   | Operating system         | [NixOS]                                                                                  |     |
 | Infra/Desktop   | File system              | [ZFS]                                                                                    |     |
-| Infra/Desktop   | Configuration management | [NixOS]                                                                                  |     |
+| Infra/Desktop   | Configuration management | [NixOS] (with Flakes)                                                                    |     |
 | Infra/Desktop   | Dotfile management       | [home-manager] ([Nix])                                                                   |     |
 | Infra/Desktop   | Shell                    | [Zsh] + [Oh My Zsh]                                                                      |     |
 | Infra/Desktop   | Desktop environment      | [bspwm] + [sxhkd] + [Polybar]                                                            |     |
@@ -65,7 +65,7 @@
 | Infra/Desktop   | Code editor              | [VSCodium]                                                                               |     |
 | Infra/Desktop   | Backup                   | [ZFS snapshots] (local)<br>[syncoid] ([ZFS] replication)<br>[rsync] (other replication)  |     |
 | Infra/Server    | Operating system         | [NixOS]                                                                                  |     |
-| Infra/Server    | Configuration management | [NixOS]                                                                                  |     |
+| Infra/Server    | Configuration management | [NixOS] (with Flakes)                                                                    |     |
 | Infra/Server    | File system              | [ZFS]                                                                                    |     |
 | Infra/Server    | Shell                    | [Zsh] + [Oh My Zsh]                                                                      |     |
 | Infra/Server    | Terminal multiplexer     | [Tmux]                                                                                   |     |
