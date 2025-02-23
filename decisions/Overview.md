@@ -54,6 +54,7 @@
 | Infra/Desktop   | File system              | [ZFS]                                                                                    |     |
 | Infra/Desktop   | Configuration management | [NixOS] (with Flakes)                                                                    |     |
 | Infra/Desktop   | Dotfile management       | [home-manager] ([Nix])                                                                   |     |
+| Infra/Desktop   | Package manager          | [Nix]                                                                                    |     |
 | Infra/Desktop   | Shell                    | [Zsh] + [Oh My Zsh]                                                                      |     |
 | Infra/Desktop   | Desktop environment      | [bspwm] + [sxhkd] + [Polybar]                                                            |     |
 | Infra/Desktop   | Launcher                 | [Rofi]                                                                                   |     |
