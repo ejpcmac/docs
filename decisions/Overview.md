@@ -29,11 +29,17 @@
 | Dev/GUI         | Framework                | [relm4] (to be revised)                                                                  |     |
 | Dev/Web         | Back-end framework       | [Ash] + [Phoenix] ([Elixir])                                                             |     |
 | Dev/Web         | Front-end framework      | [Phoenix LiveView] ([Elixir])                                                            |     |
+| Lang/C          | Formatter                | [clang-format]                                                                           |     |
 | Lang/Nix        | Flake management         | [flake-parts]                                                                            |     |
 | Lang/Nix        | Devshell                 | [devshell]                                                                               |     |
+| Lang/Nix        | Python packaging         | [uv2nix]                                                                                 |     |
 | Lang/Nix        | Rust toolchain           | [rust-overlay]                                                                           |     |
 | Lang/Nix        | Rust packaging           | [naersk]                                                                                 |     |
 | Lang/Nix        | Formatter                | [nixpkgs-fmt] (to be revised)                                                            |     |
+| Lang/Python     | Package manager          | [uv]                                                                                     |     |
+| Lang/Python     | Linter                   | [Ruff]                                                                                   |     |
+| Lang/Python     | Type checker             | [mypy]                                                                                   |     |
+| Lang/Python     | Formatter                | [Ruff]                                                                                   |     |
 | Lang/Rust (std) | Error management         | [thiserror] (lib)<br>[eyre] (app)                                                        |     |
 | Lang/Rust (std) | Log / tracing            | [tracing]                                                                                |     |
 | Lang/Rust (std) | ORM                      | [Diesel]                                                                                 |     |
@@ -119,6 +125,7 @@
 [RTIC]: https://rtic.rs/2/book/en/
 [RTT backend]: https://github.com/knurling-rs/defmt/tree/main/firmware/defmt-rtt
 [Rofi]: https://github.com/davatorium/rofi
+[Ruff]: https://docs.astral.sh/ruff/
 [Rust]: https://www.rust-lang.org/
 [Semantic Versioning]: https://semver.org/
 [Spacemacs]: https://www.spacemacs.org/
@@ -139,6 +146,7 @@
 [bspwm]: https://github.com/baskerville/bspwm
 [bépo]: https://bepo.fr/wiki/Accueil
 [cargo-nextest]: https://nexte.st/
+[clang-format]: https://clang.llvm.org/docs/ClangFormat.html
 [clap]: https://github.com/clap-rs/clap
 [committed]: https://github.com/crate-ci/committed
 [defmt]: https://github.com/knurling-rs/defmt
@@ -151,6 +159,7 @@
 [indexmap]: https://github.com/indexmap-rs/indexmap
 [inquire]: https://github.com/mikaelmello/inquire
 [mu4e]: https://github.com/djcb/mu
+[mypy]: https://www.mypy-lang.org/
 [naersk]: https://github.com/nix-community/naersk
 [nixpkgs-fmt]: https://github.com/nix-community/nixpkgs-fmt
 [postcard]: https://github.com/jamesmunns/postcard
@@ -166,3 +175,5 @@
 [tera]: https://github.com/Keats/tera
 [thiserror]: https://github.com/dtolnay/thiserror
 [tracing]: https://github.com/tokio-rs/tracing
+[uv2nix]: https://github.com/pyproject-nix/uv2nix
+[uv]: https://docs.astral.sh/uv/
