@@ -23,7 +23,7 @@
 | Dev/CLI         | CLI tests                | [rexpect]<br>[assert_cmd]<br>[assert_fs]                                                 |     |
 | Dev/Embedded    | Language                 | [Rust]                                                                                   |     |
 | Dev/Embedded    | Concurrency framework    | [RTIC]                                                                                   |     |
-| Dev/Embedded    | Log / tracing            | [defmt]                                                                                  |     |
+| Dev/Embedded    | Log / tracing            | [defmt] with [RTT backend]                                                               |     |
 | Dev/Embedded    | Serialisation format     | [postcard]                                                                               |     |
 | Dev/GUI         | Language                 | [Rust]                                                                                   |     |
 | Dev/GUI         | Framework                | [relm4] (to be revised)                                                                  |     |
@@ -116,6 +116,7 @@
 [Polybar]: https://github.com/polybar/polybar
 [PostgreSQL]: https://www.postgresql.org/
 [RTIC]: https://rtic.rs/2/book/en/
+[RTT backend]: https://github.com/knurling-rs/defmt/tree/main/firmware/defmt-rtt
 [Rofi]: https://github.com/davatorium/rofi
 [Rust]: https://www.rust-lang.org/
 [Semantic Versioning]: https://semver.org/
