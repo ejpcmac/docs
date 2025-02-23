@@ -24,6 +24,7 @@ wip = "work in progress / to be rebased and squashed later"
 accept = "list"
 list = [
     # Decisions
+    "adr",
     "adr:overview",
     "adr:template",
 
