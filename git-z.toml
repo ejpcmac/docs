@@ -29,6 +29,9 @@ list = [
     "adr:overview",
     "adr:template",
 
+    # Conventions
+    "conventions",
+
     # Guidelines
 
     # Procedures
