@@ -49,7 +49,7 @@
 | Office          | Messaging client         | [Element] ([Matrix])                                                                     |     |
 | Office          | Word processing          | [Pandoc Markdown] + [Pandoc] with [LaTeX] backend (general)<br>[LaTeX] (letters, resume) |     |
 | Office          | Presentation             | [Pandoc Markdown] + [Pandoc] with [Beamer] ([LaTeX]) backend                             |     |
-| Office          | Spreadsheet              | [LibreOffice Calc]                                                                       |     |
+| Office          | Spreadsheet              | [Org Mode] (basic tables)<br>[LibreOffice Calc] (advanced cases + sharing)               |     |
 | Infra/Desktop   | Operating system         | [NixOS]                                                                                  |     |
 | Infra/Desktop   | File system              | [ZFS]                                                                                    |     |
 | Infra/Desktop   | Configuration management | [NixOS] (with Flakes)                                                                    |     |
