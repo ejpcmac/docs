@@ -1,92 +1,92 @@
 # Tech stack overview
 
-| Scope           | Element                  | Decision                                                                                 | ADR |
-| --------------- | ------------------------ | ---------------------------------------------------------------------------------------- | --- |
-| Conventions     | ADR template             | [MADR]                                                                                   |     |
-| Conventions     | Versioning               | [Semantic Versioning]                                                                    |     |
-| Conventions     | Changelog                | [Keep a Changelog]                                                                       |     |
-| Conventions     | Commits                  | [Conventional Commits]                                                                   |     |
-| Conventions     | Git branching            | [Git Flow with extensions]                                                               |     |
-| Tools           | Version control          | [Git]                                                                                    |     |
-| Tools           | Toolchain management     | [Nix] (Flakes) + [direnv]                                                                |     |
-| Tools           | Commit helper            | [git-z]                                                                                  |     |
-| Tools           | Commit linter            | [committed]                                                                              |     |
-| Documentation   | Platform                 | Text files tracked by [Git]                                                              |     |
-| Documentation   | Markup language          | [GitHub Flavored Markdown]                                                               |     |
-| Documentation   | Diagrams                 | [Mermaid]                                                                                |     |
-| Blogging        | Platform                 | Static site                                                                              |     |
-| Blogging        | Site generator           | [Zola]                                                                                   |     |
-| Configuration   | Language                 | [TOML] (default)<br>[YAML] (complex cases)                                               |     |
-| Dev/CLI         | Language                 | [Rust]                                                                                   |     |
-| Dev/CLI         | Argument parsing         | [clap]                                                                                   |     |
-| Dev/CLI         | Prompt                   | [inquire]                                                                                |     |
-| Dev/CLI         | CLI tests                | [rexpect]<br>[assert_cmd]<br>[assert_fs]                                                 |     |
-| Dev/Embedded    | Language                 | [Rust]                                                                                   |     |
-| Dev/Embedded    | Concurrency framework    | [RTIC]                                                                                   |     |
-| Dev/Embedded    | Log / tracing            | [defmt] with [RTT backend]                                                               |     |
-| Dev/Embedded    | Serialisation format     | [postcard]                                                                               |     |
-| Dev/GUI         | Language                 | [Rust]                                                                                   |     |
-| Dev/GUI         | Framework                | [relm4] (to be revised)                                                                  |     |
-| Dev/Web         | Back-end framework       | [Ash] + [Phoenix] ([Elixir])                                                             |     |
-| Dev/Web         | Front-end framework      | [Phoenix LiveView] ([Elixir])                                                            |     |
-| Lang/C          | Formatter                | [clang-format]                                                                           |     |
-| Lang/Nix        | Flake management         | [flake-parts]                                                                            |     |
-| Lang/Nix        | Devshell                 | [devshell]                                                                               |     |
-| Lang/Nix        | Python packaging         | [uv2nix]                                                                                 |     |
-| Lang/Nix        | Rust toolchain           | [rust-overlay]                                                                           |     |
-| Lang/Nix        | Rust packaging           | [naersk]                                                                                 |     |
-| Lang/Nix        | Formatter                | [nixpkgs-fmt] (to be revised)                                                            |     |
-| Lang/Python     | Package manager          | [uv]                                                                                     |     |
-| Lang/Python     | Linter                   | [Ruff]                                                                                   |     |
-| Lang/Python     | Type checker             | [mypy]                                                                                   |     |
-| Lang/Python     | Formatter                | [Ruff]                                                                                   |     |
-| Lang/Rust (std) | Error management         | [thiserror] (lib)<br>[eyre] (app)                                                        |     |
-| Lang/Rust (std) | Log / tracing            | [tracing]                                                                                |     |
-| Lang/Rust (std) | ORM                      | [Diesel]                                                                                 |     |
-| Lang/Rust (std) | Templating               | [askama] (static)<br>[tera] (dynamic)                                                    |     |
-| Lang/Rust (std) | Ordered maps             | [indexmap]                                                                               |     |
-| Lang/Rust (std) | Test runner              | [cargo-nextest]                                                                          |     |
-| Lang/TOML       | Formatter                | [taplo]                                                                                  |     |
-| Lang/YAML       | Formatter                | [prettier]                                                                               |     |
-| Lang/JSON       | Formatter                | [prettier]                                                                               |     |
-| Office          | Task management          | [Org Mode]                                                                               |     |
-| Office          | Note taking              | [Org Mode]                                                                               |     |
-| Office          | Mailer                   | [mu4e]                                                                                   |     |
-| Office          | Messaging client         | [Element] ([Matrix])                                                                     |     |
-| Office          | Word processing          | [Pandoc Markdown] + [Pandoc] with [LaTeX] backend (general)<br>[LaTeX] (letters, resume) |     |
-| Office          | Presentation             | [Pandoc Markdown] + [Pandoc] with [Beamer] ([LaTeX]) backend                             |     |
-| Office          | Spreadsheet              | [Org Mode] (basic tables)<br>[LibreOffice Calc] (advanced cases + sharing)               |     |
-| Infra/Desktop   | Operating system         | [NixOS]                                                                                  |     |
-| Infra/Desktop   | File system              | [ZFS]                                                                                    |     |
-| Infra/Desktop   | Configuration management | [NixOS] (with Flakes)                                                                    |     |
-| Infra/Desktop   | Dotfile management       | [home-manager] ([Nix])                                                                   |     |
-| Infra/Desktop   | Package manager          | [Nix]                                                                                    |     |
-| Infra/Desktop   | Shell                    | [Zsh] + [Oh My Zsh]                                                                      |     |
-| Infra/Desktop   | Desktop environment      | [bspwm] + [sxhkd] + [Polybar]                                                            |     |
-| Infra/Desktop   | Launcher                 | [Rofi]                                                                                   |     |
-| Infra/Desktop   | Terminal emulator        | [Termite]                                                                                |     |
-| Infra/Desktop   | Terminal multiplexer     | [Tmux]                                                                                   |     |
-| Infra/Desktop   | File manager             | [ranger] (main)<br>[PCManFM] (for thumbnails)                                            |     |
-| Infra/Desktop   | Text editor              | [Spacemacs]                                                                              |     |
-| Infra/Desktop   | Web browser              | [Firefox]                                                                                |     |
-| Infra/Desktop   | Code editor              | [VSCodium]                                                                               |     |
-| Infra/Desktop   | Backup                   | [ZFS snapshots] (local)<br>[syncoid] ([ZFS] replication)<br>[rsync] (other replication)  |     |
-| Infra/Server    | Operating system         | [NixOS]                                                                                  |     |
-| Infra/Server    | Configuration management | [NixOS] (with Flakes)                                                                    |     |
-| Infra/Server    | File system              | [ZFS]                                                                                    |     |
-| Infra/Server    | Shell                    | [Zsh] + [Oh My Zsh]                                                                      |     |
-| Infra/Server    | Terminal multiplexer     | [Tmux]                                                                                   |     |
-| Infra/Server    | File manager             | [ranger]                                                                                 |     |
-| Infra/Server    | Text editor              | [Vim]                                                                                    |     |
-| Infra/Server    | Backup                   | [ZFS snapshots] (local)<br>[syncoid] ([ZFS] replication)                                 |     |
-| Infra/Server    | Container platform       | [NixOS Containers]                                                                       |     |
-| Infra/Server    | Log database             | [Elasticsearch] (to be revised)                                                          |     |
-| Infra/Server    | Database                 | [PostgreSQL]                                                                             |     |
-| Infra/Server    | Mail server              | [NixOS Mailserver] (Postfix + Dovecot + OpenDKIM + rspamd)                               |     |
-| Infra/Server    | Web server               | [Apache HTTP Server]                                                                     |     |
-| Infra/Server    | Messaging server         | [Synapse] ([Matrix])                                                                     |     |
-| Infra/Server    | Git forge                | [GitLab] (private projects, self-hosted)<br>[GitHub] (public projects)                   |     |
-| Infra/Server    | Home cloud               | [Nextcloud]                                                                              |     |
+| Scope           | Element                  | Decision                                                                                 | ADR           |
+| --------------- | ------------------------ | ---------------------------------------------------------------------------------------- | ------------- |
+| Conventions     | ADR template             | [MADR]                                                                                   | [CO-2025-001] |
+| Conventions     | Versioning               | [Semantic Versioning]                                                                    |               |
+| Conventions     | Changelog                | [Keep a Changelog]                                                                       |               |
+| Conventions     | Commits                  | [Conventional Commits]                                                                   |               |
+| Conventions     | Git branching            | [Git Flow with extensions]                                                               |               |
+| Tools           | Version control          | [Git]                                                                                    |               |
+| Tools           | Toolchain management     | [Nix] (Flakes) + [direnv]                                                                |               |
+| Tools           | Commit helper            | [git-z]                                                                                  |               |
+| Tools           | Commit linter            | [committed]                                                                              |               |
+| Documentation   | Platform                 | Text files tracked by [Git]                                                              |               |
+| Documentation   | Markup language          | [GitHub Flavored Markdown]                                                               |               |
+| Documentation   | Diagrams                 | [Mermaid]                                                                                |               |
+| Blogging        | Platform                 | Static site                                                                              |               |
+| Blogging        | Site generator           | [Zola]                                                                                   |               |
+| Configuration   | Language                 | [TOML] (default)<br>[YAML] (complex cases)                                               |               |
+| Dev/CLI         | Language                 | [Rust]                                                                                   |               |
+| Dev/CLI         | Argument parsing         | [clap]                                                                                   |               |
+| Dev/CLI         | Prompt                   | [inquire]                                                                                |               |
+| Dev/CLI         | CLI tests                | [rexpect]<br>[assert_cmd]<br>[assert_fs]                                                 |               |
+| Dev/Embedded    | Language                 | [Rust]                                                                                   |               |
+| Dev/Embedded    | Concurrency framework    | [RTIC]                                                                                   |               |
+| Dev/Embedded    | Log / tracing            | [defmt] with [RTT backend]                                                               |               |
+| Dev/Embedded    | Serialisation format     | [postcard]                                                                               |               |
+| Dev/GUI         | Language                 | [Rust]                                                                                   |               |
+| Dev/GUI         | Framework                | [relm4] (to be revised)                                                                  |               |
+| Dev/Web         | Back-end framework       | [Ash] + [Phoenix] ([Elixir])                                                             |               |
+| Dev/Web         | Front-end framework      | [Phoenix LiveView] ([Elixir])                                                            |               |
+| Lang/C          | Formatter                | [clang-format]                                                                           |               |
+| Lang/Nix        | Flake management         | [flake-parts]                                                                            |               |
+| Lang/Nix        | Devshell                 | [devshell]                                                                               |               |
+| Lang/Nix        | Python packaging         | [uv2nix]                                                                                 |               |
+| Lang/Nix        | Rust toolchain           | [rust-overlay]                                                                           |               |
+| Lang/Nix        | Rust packaging           | [naersk]                                                                                 |               |
+| Lang/Nix        | Formatter                | [nixpkgs-fmt] (to be revised)                                                            |               |
+| Lang/Python     | Package manager          | [uv]                                                                                     |               |
+| Lang/Python     | Linter                   | [Ruff]                                                                                   |               |
+| Lang/Python     | Type checker             | [mypy]                                                                                   |               |
+| Lang/Python     | Formatter                | [Ruff]                                                                                   |               |
+| Lang/Rust (std) | Error management         | [thiserror] (lib)<br>[eyre] (app)                                                        |               |
+| Lang/Rust (std) | Log / tracing            | [tracing]                                                                                |               |
+| Lang/Rust (std) | ORM                      | [Diesel]                                                                                 |               |
+| Lang/Rust (std) | Templating               | [askama] (static)<br>[tera] (dynamic)                                                    |               |
+| Lang/Rust (std) | Ordered maps             | [indexmap]                                                                               |               |
+| Lang/Rust (std) | Test runner              | [cargo-nextest]                                                                          |               |
+| Lang/TOML       | Formatter                | [taplo]                                                                                  |               |
+| Lang/YAML       | Formatter                | [prettier]                                                                               |               |
+| Lang/JSON       | Formatter                | [prettier]                                                                               |               |
+| Office          | Task management          | [Org Mode]                                                                               |               |
+| Office          | Note taking              | [Org Mode]                                                                               |               |
+| Office          | Mailer                   | [mu4e]                                                                                   |               |
+| Office          | Messaging client         | [Element] ([Matrix])                                                                     |               |
+| Office          | Word processing          | [Pandoc Markdown] + [Pandoc] with [LaTeX] backend (general)<br>[LaTeX] (letters, resume) |               |
+| Office          | Presentation             | [Pandoc Markdown] + [Pandoc] with [Beamer] ([LaTeX]) backend                             |               |
+| Office          | Spreadsheet              | [Org Mode] (basic tables)<br>[LibreOffice Calc] (advanced cases + sharing)               |               |
+| Infra/Desktop   | Operating system         | [NixOS]                                                                                  |               |
+| Infra/Desktop   | File system              | [ZFS]                                                                                    |               |
+| Infra/Desktop   | Configuration management | [NixOS] (with Flakes)                                                                    |               |
+| Infra/Desktop   | Dotfile management       | [home-manager] ([Nix])                                                                   |               |
+| Infra/Desktop   | Package manager          | [Nix]                                                                                    |               |
+| Infra/Desktop   | Shell                    | [Zsh] + [Oh My Zsh]                                                                      |               |
+| Infra/Desktop   | Desktop environment      | [bspwm] + [sxhkd] + [Polybar]                                                            |               |
+| Infra/Desktop   | Launcher                 | [Rofi]                                                                                   |               |
+| Infra/Desktop   | Terminal emulator        | [Termite]                                                                                |               |
+| Infra/Desktop   | Terminal multiplexer     | [Tmux]                                                                                   |               |
+| Infra/Desktop   | File manager             | [ranger] (main)<br>[PCManFM] (for thumbnails)                                            |               |
+| Infra/Desktop   | Text editor              | [Spacemacs]                                                                              |               |
+| Infra/Desktop   | Web browser              | [Firefox]                                                                                |               |
+| Infra/Desktop   | Code editor              | [VSCodium]                                                                               |               |
+| Infra/Desktop   | Backup                   | [ZFS snapshots] (local)<br>[syncoid] ([ZFS] replication)<br>[rsync] (other replication)  |               |
+| Infra/Server    | Operating system         | [NixOS]                                                                                  |               |
+| Infra/Server    | Configuration management | [NixOS] (with Flakes)                                                                    |               |
+| Infra/Server    | File system              | [ZFS]                                                                                    |               |
+| Infra/Server    | Shell                    | [Zsh] + [Oh My Zsh]                                                                      |               |
+| Infra/Server    | Terminal multiplexer     | [Tmux]                                                                                   |               |
+| Infra/Server    | File manager             | [ranger]                                                                                 |               |
+| Infra/Server    | Text editor              | [Vim]                                                                                    |               |
+| Infra/Server    | Backup                   | [ZFS snapshots] (local)<br>[syncoid] ([ZFS] replication)                                 |               |
+| Infra/Server    | Container platform       | [NixOS Containers]                                                                       |               |
+| Infra/Server    | Log database             | [Elasticsearch] (to be revised)                                                          |               |
+| Infra/Server    | Database                 | [PostgreSQL]                                                                             |               |
+| Infra/Server    | Mail server              | [NixOS Mailserver] (Postfix + Dovecot + OpenDKIM + rspamd)                               |               |
+| Infra/Server    | Web server               | [Apache HTTP Server]                                                                     |               |
+| Infra/Server    | Messaging server         | [Synapse] ([Matrix])                                                                     |               |
+| Infra/Server    | Git forge                | [GitLab] (private projects, self-hosted)<br>[GitHub] (public projects)                   |               |
+| Infra/Server    | Home cloud               | [Nextcloud]                                                                              |               |
 
 [Apache HTTP Server]: https://httpd.apache.org/
 [Ash]: https://www.ash-hq.org/
@@ -177,3 +177,5 @@
 [tracing]: https://github.com/tokio-rs/tracing
 [uv2nix]: https://github.com/pyproject-nix/uv2nix
 [uv]: https://docs.astral.sh/uv/
+
+[CO-2025-001]: ./conventions/CO-2025-001-use-madr-4.0-for-recording-decisions.md

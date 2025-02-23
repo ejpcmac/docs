@@ -25,6 +25,7 @@ accept = "list"
 list = [
     # Decisions
     "adr",
+    "adr:co",
     "adr:overview",
     "adr:template",
 
