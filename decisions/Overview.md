@@ -2,7 +2,7 @@
 
 | Category        | Element                  | Decision                                                                                | ADR                                             |
 | --------------- | ------------------------ | --------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| Conventions     | ADR template             | [MADR] with slight updates and [custom naming](../conventions/adr-naming.md)            | [CO-2025-001]<br>[CO-2025-002]<br>[CO-2025-003] |
+| Conventions     | ADR template             | [MADR] with [slight updates] and [custom naming](../conventions/adr-naming.md)          | [CO-2025-001]<br>[CO-2025-002]<br>[CO-2025-003] |
 | Conventions     | Versioning               | [Semantic Versioning]                                                                   |                                                 |
 | Conventions     | Changelog                | [Keep a Changelog]                                                                      |                                                 |
 | Conventions     | Commits                  | [Conventional Commits]                                                                  |                                                 |
@@ -175,6 +175,8 @@
 [Typst]: https://typst.app/
 [uv2nix]: https://github.com/pyproject-nix/uv2nix
 [uv]: https://docs.astral.sh/uv/
+
+[slight updates]: https://github.com/ejpcmac/docs/commit/16d9f98e9e4338da580b1389cd606bbf54232bb0#diff-342cec006cac61a0ea753ab02ae7b475dd9f3534a8847718eb6757466663b20cR4-R5
 
 [CO-2025-001]: ./conventions/CO-2025-001-use-madr-4.0-for-recording-decisions.md
 [CO-2025-002]: ./conventions/CO-2025-002-use-custom-naming-for-adrs.md
