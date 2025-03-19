@@ -1,6 +1,7 @@
 ---
 status: accepted
-date: 2025-02-23
+created: 2025-02-23
+updated: 2025-02-23
 decision-makers: Jean-Philippe Cugnet
 consulted: N/A
 informed: N/A

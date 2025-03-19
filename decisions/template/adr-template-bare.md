@@ -1,6 +1,7 @@
 ---
 status:
-date:
+created:
+updated:
 decision-makers:
 consulted:
 informed:
