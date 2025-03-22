@@ -36,7 +36,7 @@
 | Lang/Nix        | Rust toolchain           | [rust-overlay]                                                                          |                                                 |
 | Lang/Nix        | Rust packaging           | [naersk]                                                                                |                                                 |
 | Lang/Nix        | Formatter                | [nixpkgs-fmt] (to be revised)                                                           |                                                 |
-| Lang/Python     | Package manager          | [uv]                                                                                    |                                                 |
+| Lang/Python     | Package manager          | [uv]                                                                                    | [PY-2024-002]                                   |
 | Lang/Python     | Linter                   | [Ruff]                                                                                  |                                                 |
 | Lang/Python     | Type checker             | [mypy]                                                                                  |                                                 |
 | Lang/Python     | Formatter                | [Ruff]                                                                                  |                                                 |
@@ -181,3 +181,4 @@
 [CO-2025-001]: ./conventions/CO-2025-001-use-madr-4.0-for-recording-decisions.md
 [CO-2025-002]: ./conventions/CO-2025-002-use-custom-naming-for-adrs.md
 [CO-2025-003]: ./conventions/CO-2025-003-add-created-modified-dates-to-the-adr-template.md
+[PY-2024-002]: ./lang/python/PY-2024-002-use-uv-as-package-manager.md

@@ -27,6 +27,7 @@ list = [
     "adr",
     "adr:co",
     "adr:overview",
+    "adr:py",
     "adr:template",
 
     # Conventions
