@@ -7,7 +7,7 @@
 | Conventions     | Changelog                | [Keep a Changelog]                                                                      |                                                 |
 | Conventions     | Commits                  | [Conventional Commits]                                                                  |                                                 |
 | Conventions     | Git branching            | [Git Flow with extensions]                                                              |                                                 |
-| Tools           | Version control          | [Git]                                                                                   |                                                 |
+| Tools           | Version control          | [Jujutsu] with [Git] backend                                                            |                                                 |
 | Tools           | Toolchain management     | [Nix] (Flakes) + [direnv]                                                               |                                                 |
 | Tools           | Commit helper            | [git-z]                                                                                 |                                                 |
 | Tools           | Commit linter            | [committed]                                                                             |                                                 |
@@ -102,6 +102,7 @@
 [GitHub]: https://github.com/
 [GitLab]: https://about.gitlab.com/
 [Git]: https://git-scm.com/
+[Jujutsu]: https://jj-vcs.github.io/jj/latest/
 [Keep a Changelog]: https://keepachangelog.com/en/1.1.0/
 [LibreOffice Calc]: https://www.libreoffice.org/discover/calc/
 [MADR]: https://adr.github.io/madr/
