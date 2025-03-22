@@ -51,7 +51,7 @@ Chosen option: “Switch to uv”, because:
 [Hatch]: https://hatch.pypa.io/latest/
 [PDM]: https://pdm-project.org/en/latest/
 [PEP-621]: https://peps.python.org/pep-0621/
-[PY-2023-001]: ../../placeholder.md
+[PY-2023-001]: ./PY-2023-001-use-poetry-as-package-manager.md
 [Poetry]: https://python-poetry.org/
 [conda]: https://docs.conda.io/en/latest/
 [pip]: https://pip.pypa.io/en/stable/
