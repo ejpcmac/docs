@@ -30,11 +30,11 @@ Which of them should I use?
 
 ## Considered Options
 
-* [pip](https://pip.pypa.io/en/stable/)
-* [conda](https://docs.conda.io/en/latest/)
-* [Hatch](https://hatch.pypa.io/latest/)
-* [Poetry](https://python-poetry.org/)
-* [PDM](https://pdm-project.org/en/latest/)
+* [pip](https://web.archive.org/web/20230410171117/https://pip.pypa.io/en/stable/)
+* [conda](https://web.archive.org/web/20230412213124/https://docs.conda.io/projects/conda/en/stable/)
+* [Hatch](https://web.archive.org/web/20230327031014/https://hatch.pypa.io/latest/)
+* [Poetry](https://web.archive.org/web/20230407160742/https://python-poetry.org/)
+* [PDM](https://web.archive.org/web/20240406050206/https://pdm-project.org/en/latest/)
 
 ## Decision Outcome
 

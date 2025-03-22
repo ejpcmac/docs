@@ -48,13 +48,13 @@ Chosen option: “Switch to uv”, because:
 * Good, because uv can also handle the Python version.
 * Bad, because it means migrating projects from Poetry to uv.
 
-[Hatch]: https://hatch.pypa.io/latest/
-[PDM]: https://pdm-project.org/en/latest/
+[Hatch]: https://web.archive.org/web/20241012043931/https://hatch.pypa.io/latest/
+[PDM]: https://web.archive.org/web/20241020201250/https://pdm-project.org/en/latest/
 [PEP-621]: https://peps.python.org/pep-0621/
 [PY-2023-001]: ./PY-2023-001-use-poetry-as-package-manager.md
-[Poetry]: https://python-poetry.org/
-[conda]: https://docs.conda.io/en/latest/
-[pip]: https://pip.pypa.io/en/stable/
+[Poetry]: https://web.archive.org/web/20241024173404/https://python-poetry.org/
+[conda]: https://web.archive.org/web/20241016152250/https://docs.conda.io/en/latest/
+[pip]: https://web.archive.org/web/20241024171148/https://pip.pypa.io/en/stable/
 [poetry2nix]: https://github.com/nix-community/poetry2nix
 [uv2nix]: https://github.com/pyproject-nix/uv2nix
-[uv]: https://docs.astral.sh/uv/
+[uv]: https://web.archive.org/web/20241013190024/https://docs.astral.sh/uv/
