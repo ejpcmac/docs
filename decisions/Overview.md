@@ -53,7 +53,7 @@
 | Office          | Note taking              | [Org Mode]                                                                              |                                                 |
 | Office          | Mailer                   | [mu4e]                                                                                  |                                                 |
 | Office          | Messaging client         | [Element] ([Matrix])                                                                    |                                                 |
-| Office          | Word processing          | [Typst]                                                                                 |                                                 |
+| Office          | Word processing          | [Typst]                                                                                 | [OE-2025-001]                                   |
 | Office          | Presentation             | [Typst]                                                                                 |                                                 |
 | Office          | Spreadsheet              | [Org Mode] (basic tables)<br>[LibreOffice Calc] (advanced cases + sharing)              |                                                 |
 | Infra/Desktop   | Operating system         | [NixOS]                                                                                 |                                                 |
@@ -131,6 +131,7 @@
 [TOML]: https://toml.io/
 [Termite]: https://github.com/thestinger/termite
 [Tmux]: https://github.com/tmux/tmux/wiki
+[Typst]: https://typst.app/
 [VSCodium]: https://vscodium.com/
 [Vim]: https://www.vim.org/
 [YAML]: https://yaml.org/
@@ -173,7 +174,6 @@
 [tera]: https://github.com/Keats/tera
 [thiserror]: https://github.com/dtolnay/thiserror
 [tracing]: https://github.com/tokio-rs/tracing
-[Typst]: https://typst.app/
 [uv2nix]: https://github.com/pyproject-nix/uv2nix
 [uv]: https://docs.astral.sh/uv/
 
@@ -182,4 +182,5 @@
 [CO-2025-001]: ./conventions/CO-2025-001-use-madr-4.0-for-recording-decisions.md
 [CO-2025-002]: ./conventions/CO-2025-002-use-custom-naming-for-adrs.md
 [CO-2025-003]: ./conventions/CO-2025-003-add-created-modified-dates-to-the-adr-template.md
+[OE-2025-001]: ./office/OE-2025-001-use-typst-for-word-processing.md
 [PY-2024-002]: ./lang/python/PY-2024-002-use-uv-as-package-manager.md
