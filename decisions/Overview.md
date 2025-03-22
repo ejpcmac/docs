@@ -53,7 +53,7 @@
 | Office          | Note taking              | [Org Mode]                                                                              |                                                 |
 | Office          | Mailer                   | [mu4e]                                                                                  |                                                 |
 | Office          | Messaging client         | [Element] ([Matrix])                                                                    |                                                 |
-| Office          | Word processing          | [Typst]                                                                                 |                                                 |
+| Office          | Word processing          | [Typst]                                                                                 | [OE-2025-001]                                   |
 | Office          | Presentation             | [Typst]                                                                                 |                                                 |
 | Office          | Spreadsheet              | [Org Mode] (basic tables)<br>[LibreOffice Calc] (advanced cases + sharing)              |                                                 |
 | Infra/Desktop   | Operating system         | [NixOS]                                                                                 |                                                 |
@@ -181,4 +181,5 @@
 [CO-2025-001]: ./conventions/CO-2025-001-use-madr-4.0-for-recording-decisions.md
 [CO-2025-002]: ./conventions/CO-2025-002-use-custom-naming-for-adrs.md
 [CO-2025-003]: ./conventions/CO-2025-003-add-created-modified-dates-to-the-adr-template.md
+[OE-2025-001]: ./office/OE-2025-001-use-typst-for-word-processing.md
 [PY-2024-002]: ./lang/python/PY-2024-002-use-uv-as-package-manager.md
