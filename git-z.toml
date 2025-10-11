@@ -26,6 +26,7 @@ list = [
     # Decisions
     "adr",
     "adr:co",
+    "adr:ifrs",
     "adr:overview",
     "adr:py",
     "adr:template",

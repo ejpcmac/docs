@@ -86,11 +86,13 @@
 | Infra/Server    | Web server               | [Apache HTTP Server]                                                                    |                                                 |
 | Infra/Server    | Messaging server         | [Synapse] ([Matrix])                                                                    |                                                 |
 | Infra/Server    | Git forge                | [GitLab] (private projects, self-hosted)<br>[GitHub] (public projects)                  |                                                 |
+| Infra/Server    | Test coverage reporting  | [GitLab] (private projects, self-hosted)<br>[Codecov] (public projects)                 | [IFRS-2025-001]                                 |
 | Infra/Server    | Home cloud               | [Nextcloud]                                                                             |                                                 |
 
 [Apache HTTP Server]: https://httpd.apache.org/
 [Ash]: https://www.ash-hq.org/
 [Beamer]: https://ctan.org/pkg/beamer
+[Codecov]: https://about.codecov.io/
 [Conventional Commits]: https://www.conventionalcommits.org/en/v1.0.0/
 [Diesel]: https://diesel.rs/
 [Elasticsearch]: https://www.elastic.co/elasticsearch
@@ -131,6 +133,7 @@
 [TOML]: https://toml.io/
 [Termite]: https://github.com/thestinger/termite
 [Tmux]: https://github.com/tmux/tmux/wiki
+[Typst]: https://typst.app/
 [VSCodium]: https://vscodium.com/
 [Vim]: https://www.vim.org/
 [YAML]: https://yaml.org/
@@ -173,7 +176,6 @@
 [tera]: https://github.com/Keats/tera
 [thiserror]: https://github.com/dtolnay/thiserror
 [tracing]: https://github.com/tokio-rs/tracing
-[Typst]: https://typst.app/
 [uv2nix]: https://github.com/pyproject-nix/uv2nix
 [uv]: https://docs.astral.sh/uv/
 
@@ -182,4 +184,5 @@
 [CO-2025-001]: ./conventions/CO-2025-001-use-madr-4.0-for-recording-decisions.md
 [CO-2025-002]: ./conventions/CO-2025-002-use-custom-naming-for-adrs.md
 [CO-2025-003]: ./conventions/CO-2025-003-add-created-modified-dates-to-the-adr-template.md
+[IFRS-2025-001]: ./infra/server/IFRS-2025-001-use-codecov-for-test-coverage-statistics.md
 [PY-2024-002]: ./lang/python/PY-2024-002-use-uv-as-package-manager.md
