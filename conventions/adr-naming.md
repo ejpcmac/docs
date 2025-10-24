@@ -1,3 +1,8 @@
+<!--
+SPDX-FileCopyrightText: 2025 Jean-Philippe Cugnet <jean-philippe@cugnet.eu>
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # ADR Naming
 
 ## General rule
