@@ -7,6 +7,11 @@ consulted: N/A
 informed: N/A
 ---
 
+<!--
+SPDX-FileCopyrightText: 2025 Jean-Philippe Cugnet <jean-philippe@cugnet.eu>
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Use Poetry as package manager
 
 *This ADR is superseded by [PY-2024-002].*
