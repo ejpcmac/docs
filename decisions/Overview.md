@@ -3,6 +3,7 @@
 | Category        | Element                  | Decision                                                                                | ADR                                             |
 | --------------- | ------------------------ | --------------------------------------------------------------------------------------- | ----------------------------------------------- |
 | Conventions     | ADR template             | [MADR] with [slight updates] and [custom naming](../conventions/adr-naming.md)          | [CO-2025-001]<br>[CO-2025-002]<br>[CO-2025-003] |
+| Conventions     | Licensing                | [REUSE]                                                                                 | [CO-2025-004]                                   |
 | Conventions     | Versioning               | [Semantic Versioning]                                                                   |                                                 |
 | Conventions     | Changelog                | [Keep a Changelog]                                                                      |                                                 |
 | Conventions     | Commits                  | [Conventional Commits]                                                                  |                                                 |
@@ -122,6 +123,7 @@
 [Phoenix]: https://phoenixframework.org/
 [Polybar]: https://github.com/polybar/polybar
 [PostgreSQL]: https://www.postgresql.org/
+[REUSE]: https://reuse.software/
 [RTIC]: https://rtic.rs/2/book/en/
 [RTT backend]: https://github.com/knurling-rs/defmt/tree/main/firmware/defmt-rtt
 [Rofi]: https://github.com/davatorium/rofi
@@ -184,5 +186,6 @@
 [CO-2025-001]: ./conventions/CO-2025-001-use-madr-4.0-for-recording-decisions.md
 [CO-2025-002]: ./conventions/CO-2025-002-use-custom-naming-for-adrs.md
 [CO-2025-003]: ./conventions/CO-2025-003-add-created-modified-dates-to-the-adr-template.md
+[CO-2025-004]: ./conventions/CO-2025-004-follow-reuse-for-tracking-licensing-information.md
 [IFRS-2025-001]: ./infra/server/IFRS-2025-001-use-codecov-for-test-coverage-statistics.md
 [PY-2024-002]: ./lang/python/PY-2024-002-use-uv-as-package-manager.md
