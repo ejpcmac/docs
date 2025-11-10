@@ -1,0 +1,34 @@
+[global]
+line_length = 80
+disable = ["MD041"]
+
+[per-file-ignores]
+"decisions/template/*.md" = ["MD012", "MD013", "MD022"]
+
+# Heading style
+[MD003]
+style = "atx"
+
+# Unordered lists style
+[MD004]
+style = "asterisk"
+
+# List indentation
+[MD007]
+indent = 4 # Unordered list indentation
+
+# Line length
+[MD013]
+tables = false # Exclude tables from line length check
+
+# Ordered lists numbering
+[MD029]
+style = "ordered"
+
+# Italic consistency
+[MD049]
+style = "asterisk"
+
+# Bold consistency
+[MD050]
+style = "asterisk"

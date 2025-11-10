@@ -49,6 +49,7 @@ list = [
     "editorconfig",
     "git",
     "git-z",
+    "rumdl",
     "typos",
     "vscode",
 ]
