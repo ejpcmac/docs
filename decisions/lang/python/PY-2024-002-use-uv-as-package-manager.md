@@ -53,7 +53,8 @@ Chosen option: “Switch to uv”, because:
 * Good, because uv can also handle the Python version.
 * Bad, because it means migrating projects from Poetry to uv.
 
-[^1]: 2025-03-22: Poetry 2.0, released on 2025-01-05, now supports PEP-621 as well.
+[^1]: 2025-03-22: Poetry 2.0, released on 2025-01-05, now supports PEP-621 as
+    well.
 [^2]: 2025-03-22: poetry2nix [is not maintained
     anymore](https://github.com/nix-community/poetry2nix/commit/f554d27c1544d9c56e5f1f8e2b8aff399803674e)
     since 2024-11-10.

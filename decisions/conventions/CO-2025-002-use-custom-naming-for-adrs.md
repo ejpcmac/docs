@@ -123,7 +123,7 @@ all the requirements without adding a bad consequence.
     decision.
 * Bad, because category identifiers can be obscure to newcomers.
 
-### Subfolders with category identifier in filename and per-category yearly sequential ID
+### Subfolders with category identifier in filename and per-category yearly sequential ID <!-- rumdl-disable-line MD013 -->
 
     category/CAT-YYYY-NNN-title-with-dashes.md
 
@@ -156,6 +156,5 @@ If the project is reduced in scope, it would be even better to stick to
 
 [Custom naming]: ../../conventions/adr-naming.md
 [CO-2025-001]: ./CO-2025-001-use-madr-4.0-for-recording-decisions.md
-[DOC-2016-001]: ../placeholder.md
 [MADR-0005]: https://adr.github.io/madr/decisions/0005-use-dashes-in-filenames.html
 [MADR-0010]: https://adr.github.io/madr/decisions/0010-support-categories.html

@@ -5,6 +5,8 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 # Tech stack overview
 
+<!-- rumdl-disable MD033 -->
+
 | Category        | Element                  | Decision                                                                                | ADR                                             |
 | --------------- | ------------------------ | --------------------------------------------------------------------------------------- | ----------------------------------------------- |
 | Conventions     | ADR template             | [MADR] with [slight updates] and [custom naming](../conventions/adr-naming.md)          | [CO-2025-001]<br>[CO-2025-002]<br>[CO-2025-003] |
@@ -95,9 +97,10 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 | Infra/Server    | Test coverage reporting  | [GitLab] (private projects, self-hosted)<br>[Codecov] (public projects)                 | [IFRS-2025-001]                                 |
 | Infra/Server    | Home cloud               | [Nextcloud]                                                                             |                                                 |
 
+<!-- rumdl-enable -->
+
 [Apache HTTP Server]: https://httpd.apache.org/
 [Ash]: https://www.ash-hq.org/
-[Beamer]: https://ctan.org/pkg/beamer
 [Codecov]: https://about.codecov.io/
 [Conventional Commits]: https://www.conventionalcommits.org/en/v1.0.0/
 [Diesel]: https://diesel.rs/
@@ -152,7 +155,6 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 [assert_cmd]: https://github.com/assert-rs/assert_cmd
 [assert_fs]: https://github.com/assert-rs/assert_cmd
 [bspwm]: https://github.com/baskerville/bspwm
-[bépo]: https://bepo.fr/wiki/Accueil
 [cargo-nextest]: https://nexte.st/
 [clang-format]: https://clang.llvm.org/docs/ClangFormat.html
 [clap]: https://github.com/clap-rs/clap
@@ -188,6 +190,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 
 [slight updates]: https://github.com/ejpcmac/docs/commit/16d9f98e9e4338da580b1389cd606bbf54232bb0#diff-342cec006cac61a0ea753ab02ae7b475dd9f3534a8847718eb6757466663b20cR4-R5
 
+<!-- rumdl-disable MD013 -->
 [CO-2025-001]: ./conventions/CO-2025-001-use-madr-4.0-for-recording-decisions.md
 [CO-2025-002]: ./conventions/CO-2025-002-use-custom-naming-for-adrs.md
 [CO-2025-003]: ./conventions/CO-2025-003-add-created-modified-dates-to-the-adr-template.md
@@ -195,3 +198,4 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 [IFRS-2025-001]: ./infra/server/IFRS-2025-001-use-codecov-for-test-coverage-statistics.md
 [OE-2025-001]: ./office/OE-2025-001-use-typst-for-word-processing.md
 [PY-2024-002]: ./lang/python/PY-2024-002-use-uv-as-package-manager.md
+<!-- rumdl-enable -->
