@@ -30,6 +30,7 @@ list = [
     "adr",
     "adr:co",
     "adr:ifrs",
+    "adr:oe",
     "adr:overview",
     "adr:py",
     "adr:template",

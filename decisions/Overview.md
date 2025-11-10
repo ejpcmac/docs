@@ -59,7 +59,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 | Office          | Note taking              | [Org Mode]                                                                              |                                                 |
 | Office          | Mailer                   | [mu4e]                                                                                  |                                                 |
 | Office          | Messaging client         | [Element] ([Matrix])                                                                    |                                                 |
-| Office          | Word processing          | [Typst]                                                                                 |                                                 |
+| Office          | Word processing          | [Typst]                                                                                 | [OE-2025-001]                                   |
 | Office          | Presentation             | [Typst]                                                                                 |                                                 |
 | Office          | Spreadsheet              | [Org Mode] (basic tables)<br>[LibreOffice Calc] (advanced cases + sharing)              |                                                 |
 | Infra/Desktop   | Operating system         | [NixOS]                                                                                 |                                                 |
@@ -193,4 +193,5 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 [CO-2025-003]: ./conventions/CO-2025-003-add-created-modified-dates-to-the-adr-template.md
 [CO-2025-004]: ./conventions/CO-2025-004-follow-reuse-for-tracking-licensing-information.md
 [IFRS-2025-001]: ./infra/server/IFRS-2025-001-use-codecov-for-test-coverage-statistics.md
+[OE-2025-001]: ./office/OE-2025-001-use-typst-for-word-processing.md
 [PY-2024-002]: ./lang/python/PY-2024-002-use-uv-as-package-manager.md
